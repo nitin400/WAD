@@ -1,0 +1,6 @@
+FROM node:alpine
+COPY . /partb
+CMD node /partb/nitin.js
+
+docker build -t partb .
+docker images
